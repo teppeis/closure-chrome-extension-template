@@ -1,0 +1,25 @@
+{namespace ext.templates.options}
+
+
+/**
+ *
+ */
+{template .css}
+<style>
+{literal}
+body {
+  font: 13px Arial, sans-serif;
+}
+{/literal}
+</style>
+{/template}
+
+
+/**
+ *
+ */
+{template .content}
+{call .css data="all" /}
+
+Hello world!
+{/template}
